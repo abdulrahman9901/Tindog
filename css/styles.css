@@ -56,9 +56,10 @@ body
 
 }
 .nav-link{
-  font-size: 1.2rem;
-  font-family: "Montserrat-light";
+  font-size: 1rem;
   color: #fff;
+  font-family: 'Ubuntu';
+  font-weight: bold;
 }
 a:hover
 {
@@ -130,6 +131,7 @@ icon:hover
 .row{
   text-align: center;
   padding: 5%;
+  margin: auto !important;
   width: 100%;
 }
 .pf
@@ -197,7 +199,7 @@ icon:hover
   }
   .img1 {
     margin-top: 70px;
-    margin-left: 100px;
+    width: 70%;
   }
 }
 
@@ -212,16 +214,61 @@ icon:hover
 }
 @media (max-width: 1000px) {
   .img1 {
-display: none; 
+  transform: rotate(0deg);
+  position: inherit;
+  margin-bottom: 20px;
  }
+ .btn {
+  margin-top: 10px;
+}
+.navbar-toggler{
+  margin: auto;
+  margin-right: 0;
+}
+.h1s{
+  font-size: 2rem;
+}
+}
+
+@media (max-width: 1000px) {
+.ct {
+  font-size: 2.5rem;
+}
 }
 @media (min-width: 1000px) {
   .img1 {
-display: block; 
   margin-top: 0px;
   margin-left: 100px;
   width: 210px;
+  transform:rotate(25deg);
+  position: absolute;
  }
+}
+@media (max-width: 450px) { 
+  .logo {
+    width: 40%;
+  }
+.col-lg-4 {
+  min-width: 250px !important;
+}
+}
+@media (max-width: 350px) { 
+.col-lg-4 {
+  min-width: 250px !important;
+}
+.main-txt {
+  padding-right: 31px;
+}
+}
+@media (min-width: 440px) {
+  .navbar-toggler{
+    margin-right: 0;
+  }
+}
+@media (max-width: 440px) {
+  .navbar-toggler{
+    margin: auto;
+  }
 }
 .navbar-dark .navbar-nav .nav-link {
   color: white !important;
