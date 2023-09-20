@@ -13,19 +13,15 @@ It's a full responsive landing page for imaginary mobile application called TinD
 <br/>
 <br/>
 
-![mobile phones view ](./docs/Screen%20Shot%202023-09-19%20at%2021.31.00.png)
+<p align="center">
+  <img src="./docs/galaxy%20note%2020.png" alt="mobile phones view"/>
+</p>
 
 <br/>
 <br/>
 <br/>
 
-![mobile phones view ](./docs/galaxy%20note%2020.png)
-
-<br/>
-<br/>
-<br/>
-
-![mobile phones view ](./docs/kindle.png)
+![kindle view ](./docs/kindle.png)
 
 
 
